@@ -1,7 +1,10 @@
 .container_menu {
   width: 20%;
   height: 100vh;
+  display: flex;
   position: relative;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 3px 0px 6px 0px rgb(207 207 207 / 75%);
 }
 
@@ -14,8 +17,8 @@
   margin: 0 auto;
 }
 
-.MuiButtonGroup-root{
-    align-items: flex-start;
+.MuiButtonGroup-root {
+  align-items: flex-start;
 }
 .MuiBox-root {
   justify-content: center;
@@ -33,12 +36,12 @@
 .MuiButton-root:hover {
   color: #9a9b9e !important;
 }
-.MuiTouchRipple-root{
-    display: none!important;
-    border: none!important;
+.MuiTouchRipple-root {
+  display: none !important;
+  border: none !important;
 }
-.Mui-focusVisible{
-    border: none !important;
+.Mui-focusVisible {
+  border: none !important;
 }
 
 .MuiTypography-root {
@@ -48,16 +51,54 @@
 }
 
 .divider_menu {
-      background-color: #50caff38;
+  background-color: #50caff38;
 }
-.MuiList-root{
-  padding-top: 0!important;
+.MuiList-root {
+  padding-top: 0 !important;
 }
-.MuiListItemButton-root:hover{
-background-color: #405f7c3f!important;
+.MuiListItemButton-root:hover {
+  background-color: #405f7c3f !important;
 }
-.list_menu{
-  font-size: 18px!important;
-  font-weight: 600!important;
+.list_menu {
+  font-size: 18px !important;
+  font-weight: 600 !important;
   text-transform: uppercase;
+}
+.contactIcons {
+
+  color: #888;
+}
+.textContact {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  margin-left: 10px;
+}
+.subTextContact{
+  margin: 0;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.iconLinkedin:hover{
+  color: rgb(35, 101, 241);
+  cursor: pointer;
+}
+.iconWhatsapp:hover{
+  cursor: pointer;
+  color: rgb(17, 199, 0)
+}
+.iconGithub:hover{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.link{
+  text-decoration: none;
+  color: inherit;
 }

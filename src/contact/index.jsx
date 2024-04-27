@@ -2,7 +2,7 @@ function Contact() {
 
     return (
       <div className="container_painel">
-        <p>Contato</p>
+        <p>Vamos trabalhar juntos?</p>
       </div>
     )
   }
