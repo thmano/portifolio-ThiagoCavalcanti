@@ -1,10 +1,12 @@
 .container_menu {
   width: 20%;
+  z-index: 1;
   height: 100vh;
   display: flex;
   min-width: 240px;
   position: relative;
   flex-direction: column;
+  background-color: #fff;
   justify-content: space-between;
   box-shadow: 3px 0px 6px 0px rgb(207 207 207 / 75%);
 }
@@ -66,7 +68,6 @@
   text-transform: uppercase;
 }
 .contactIcons {
-
   color: #888;
 }
 .textContact {
@@ -75,31 +76,79 @@
   margin: 0;
   margin-left: 10px;
 }
-.subTextContact{
+.subTextContact {
   margin: 0;
   margin-left: 10px;
   font-size: 12px;
   font-weight: 500;
 }
 
-.icons{
+.icons {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
 }
-.iconLinkedin:hover{
+.iconLinkedin:hover {
   color: rgb(35, 101, 241);
   cursor: pointer;
 }
-.iconWhatsapp:hover{
+.iconWhatsapp:hover {
   cursor: pointer;
-  color: rgb(17, 199, 0)
+  color: rgb(17, 199, 0);
 }
-.iconGithub:hover{
+.iconGithub:hover {
   cursor: pointer;
   color: rgb(0, 0, 0);
 }
-.link{
+.link {
   text-decoration: none;
   color: inherit;
+}
+.containerMenuMobile {
+  width: 60px;
+  display: none;
+  height: 100vh;
+  border-right: 1px solid #efefefad;
+}
+.menuMobile {
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.lineMenu {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  border-radius: 10px;
+}
+.closeMenu {
+  font-size: 22px;
+  font-weight: 700;
+  color: #888;
+  text-align: end;
+  padding-right: 10px;
+  border-bottom: 1px solid #d2cfcf;
+  display: none;
+}
+.buttonClose:hover{
+  cursor: pointer;
+  color: #585858;
+}
+
+@media screen and (width <= 800px) {
+  .containerMenuMobile {
+    display: block;
+  }
+  .container_menu {
+    display: none;
+  }
+  .closeMenu{
+    display: block;
+  }
 }

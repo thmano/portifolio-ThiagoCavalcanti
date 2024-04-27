@@ -16,26 +16,48 @@ import {
 } from "@mui/material";
 
 function Menu() {
+  let menu = document.querySelector(".container_menu");
+  let menuColapse = document.querySelector('.containerMenuMobile')
+
+  function openMenu() {
+    menu.style.position = "absolute";
+    menu.style.display = "flex";
+  }
+
+  function closeMenu () {
+    menu.style.display = "none";
+    menuColapse.style.display = 'block';
+  }
   return (
     <>
+      <div className="containerMenuMobile">
+        <div className="menuMobile" onClick={() => openMenu()}>
+          <div className="lineMenu"></div>
+          <div className="lineMenu"></div>
+          <div className="lineMenu"></div>
+        </div>
+      </div>
       <div className="container_menu">
         <div className="menuContent">
-        <Link to="/">
-          <Stack direction="row" spacing={2}>
-            <Avatar
-              alt="Remy Sharp"
-              src="../../assets/thiagoPixar.png"
-              sx={{ width: 56, height: 56 }}
-            />
-          </Stack>
-          <Box>
-            <Typography variant="h5" gutterBottom>
-              Thiago Cavalcanti
-            </Typography>
-            <Typography variant="subtitle1" gutterBottom>
-              Front-end developer
-            </Typography>
-          </Box>
+          <div className="closeMenu">
+            <div className="buttonClose"  onClick={() => closeMenu()}>X</div>
+          </div>
+          <Link to="/">
+            <Stack direction="row" spacing={2}>
+              <Avatar
+                alt="Remy Sharp"
+                src="../../assets/thiagoPixar.png"
+                sx={{ width: 56, height: 56 }}
+              />
+            </Stack>
+            <Box>
+              <Typography variant="h5" gutterBottom>
+                Thiago Cavalcanti
+              </Typography>
+              <Typography variant="subtitle1" gutterBottom>
+                Front-end developer
+              </Typography>
+            </Box>
           </Link>
           <Divider className="divider_menu" />
           <List>
