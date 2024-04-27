@@ -17,7 +17,7 @@ function Skills() {
   }, []);
 
   return (
-    <div className="container_painel">
+    <div className="container_painel" id="painelSkills">
       <div className="content">
 
       <h2 className="titleSkills">Essas são as technologias que mais tenho experiência:</h2>

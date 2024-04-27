@@ -1,85 +1,96 @@
 /* Works on Firefox */
 * {
-    scrollbar-width: none;
+  scrollbar-width: none;
+}
 
-  
-  }
-  
-  .projectContainer{
-    overflow-y: scroll;
-    overflow-y: overlay;
-  }
-.projectContainer{
-    padding: 10px;
-    color: #888;
-    display: flex;
-    height: 60px;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    border-bottom: 1px solid #ececec;
-    
+.projectContainer {
+  overflow-y: scroll;
+  overflow-y: overlay;
 }
-.colapse{
-    height: 50px;
+.projectContainer {
+  padding: 10px;
+  color: #888;
+  display: flex;
+  height: 60px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
-.titleProject{
+.colapse {
+  height: 50px;
+}
+.titleProjectText{
     margin: 0;
     color: #888;
     font-size: 20px;
     font-weight: 700;
     margin-left: 10px;
 }
-.subTitleProject{
-    margin: 0;
-    font-size: 14px;
-    margin-top: -6px;
+.titleProject {
+  margin: 0;
+  color: #888;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.subTitleProject {
+  margin: 10px;
+  font-size: 14px;
+  margin-top: -6px;
 }
 
-.toolsProject{
-    margin: 0;
-    font-size: 16px;
+.toolsProject {
+  margin: 0;
+  font-size: 16px;
 }
-.colapseButton{
-    height: fit-content;
+.colapseButton {
+  height: fit-content;
 }
-.colapseButton:hover{
-    cursor: pointer;
-    
+.colapseButton:hover {
+  cursor: pointer;
 }
-.projectContainerData{
-    text-align: justify;
-}
-
-.titleContainer{
-    display: flex;
-    justify-content: space-between;
+.projectContainerData {
+  text-align: justify;
 }
 
-.linkProject{
-    margin-top: 10px;
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkProject {
+  margin-top: 10px;
 }
 @-webkit-keyframes rotate {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(180deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
   }
+  100% {
+    -webkit-transform: rotate(180deg);
+  }
+}
 
 @-webkit-keyframes rotateReturn {
-    0% { -webkit-transform: rotate(180deg); }
-    100% { -webkit-transform: rotate(0deg); }
+  0% {
+    -webkit-transform: rotate(180deg);
   }
-  
-  .animation-rotate {
-      -webkit-animation-name: rotate; 
-      -webkit-animation-duration: 1.5s; 
-      -webkit-animation-iteration-count: initial;
-      -webkit-transition-timing-function: linear;
-      transform: rotate(180deg);
+  100% {
+    -webkit-transform: rotate(0deg);
   }
+}
 
-  .animation-rotateReturn {
-    -webkit-animation-name: rotateReturn; 
-    -webkit-animation-duration: 1.5s; 
-    -webkit-animation-iteration-count: initial;
-    -webkit-transition-timing-function: linear;
-    transform: rotate(0deg);
+.animation-rotate {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: initial;
+  -webkit-transition-timing-function: linear;
+  transform: rotate(180deg);
+}
+
+.animation-rotateReturn {
+  -webkit-animation-name: rotateReturn;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: initial;
+  -webkit-transition-timing-function: linear;
+  transform: rotate(0deg);
 }
