@@ -20,6 +20,7 @@ function Menu() {
     <>
       <div className="container_menu">
         <div className="menuContent">
+        <Link to="/">
           <Stack direction="row" spacing={2}>
             <Avatar
               alt="Remy Sharp"
@@ -35,6 +36,7 @@ function Menu() {
               Front-end developer
             </Typography>
           </Box>
+          </Link>
           <Divider className="divider_menu" />
           <List>
             <Link to="/project">

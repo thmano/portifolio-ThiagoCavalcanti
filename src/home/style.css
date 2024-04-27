@@ -1,0 +1,23 @@
+.containerPainelHome{
+  width: 100%;
+}
+.titleTextHome{
+    margin-left: 10px;
+    color: #888;
+}
+.titleHome{
+    margin: 0;
+}
+.textHome{
+    margin: 0;
+}
+.imageHome{
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    max-width: 640px;
+
+}
+img{
+    width: -webkit-fill-available;
+}
