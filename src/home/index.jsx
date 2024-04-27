@@ -9,7 +9,7 @@ function Home() {
           carreira como desenvolvedor, espero que goste!
         </p>
       </div>
-      <div className="imageHome"><img src="../../public/assets/programer.jpg" alt="" /></div>
+      <div className="imageHome"><img src="../../public/assets/computer.jpg" alt="" /></div>
     </div>
   );
 }
