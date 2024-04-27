@@ -16,15 +16,16 @@ import {
 } from "@mui/material";
 
 function Menu() {
-  let menu = document.querySelector(".container_menu");
-  let menuColapse = document.querySelector('.containerMenuMobile')
-
+  let menu 
   function openMenu() {
+    menu = document.querySelector(".container_menu");
     menu.style.position = "absolute";
     menu.style.display = "flex";
   }
-
+  
   function closeMenu () {
+    const menuColapse = document.querySelector('.containerMenuMobile')
+    menu = document.querySelector(".container_menu");
     menu.style.display = "none";
     menuColapse.style.display = 'block';
   }
