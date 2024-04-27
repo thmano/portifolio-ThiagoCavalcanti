@@ -1,0 +1,106 @@
+{
+    "projetos": [
+        {
+            "id": 1,
+            "title": "Vacinas.com",
+            "subTitle": "Carteira de vacinação digital",
+            "description": "Esse sistema foi criado para conclusão de curso da Etec de Guainazes, o projeto foi criado em duas etapas: um sistema para o posto de saúde onde as enfermeiras podiam cadastrar e alterar dados dos pacientes, marcar as vacinas aplicadas, verificar os pacientes com suas vacinas atradas, emitir alertas para os pacientes, controle de estoque de vacinas, cadastro e alteração dos dados dos usuarios(enfermeiros e adimistradores das equipes do posto de saúde. A segunda parte do sistema se deu a criação de um aplicativo android onde o paciente poderia verificar sua carteira de vacinção e de seus dependentes caso o mesmo seja menor de idade e tamb~em recebia alertas caso ouvesse necessidade, os desafios nesse projeto foi sem duvidas aprender trabalhar em equipe, criação de todo template do zero, aperfeiçoar os conhecimentos em todas as tecnologias usadas e entender todas as necessidades das enfermeiras para um sistema funcional",
+            "links": ["https://www.cps.sp.gov.br/alunos-da-etec-guaianazes-criam-programa-para-gerenciar-vacinas-em-posto-de-saude/", "https://www.tvgazeta.com.br/videos/ex-alunos-da-etec-de-guaianazes-criam-programa-para-gerenciar-vacinas-em-postos-de-saude/"],
+            "tools": ["HTML", "CSS", "JavaScript", "PHP", "JAVA", "Bootstrap", "SQL"]
+
+            
+        },
+        {
+            "id": 2,
+            "title": "Opencred",
+            "subTitle": "Projeto criado para teste técnico",
+            "description": "O projeto consistiu em clonar duas telas prototipas no figma, para esse teste foi pedido o uso de tecnologias como chakra-ui, emotion-styled, react-azure-maps e react-charts, no pequeno sistema criado pude mostrar habilidades como criação de rotas, componentização, responsividade e manipulação de estado",
+            "links": ["https://github.com/thmano/opencred"],
+            "tools": ["HTML", "CSS", "JavaScript", "React", "chakra-ui", "React-router", "emotion-styled", "styled-components", "react-azure-maps", "react-charts"]
+
+        }, 
+        {
+            "id": 3,
+            "title": "DT-Money",
+            "subTitle": "Sistema de controle financeiro",
+            "description": "Nesse projeto criamos em para o curso Ignition da rocketseat, o sistema foi feito para entrada de saldos positivos e negativos na sua carteira, nele podemos obter um controle da quantidade de valor que temos ou de saldo devedor, nesse trabalho encarei desafios como criar requisições get e post com rest api, criação dos próprios Hooks além de usar hooks para controle de estado",
+            "links": ["https://github.com/thmano/dtmoney"],
+            "tools": ["HTML", "CSS", "JavaScript", "React", "typescript", "yarn", "styled-components"]
+
+        }, 
+        {
+            "id": 4,
+            "title": "Mercantil redutores",
+            "subTitle": "Pagina para vendas de moto-redutores",
+            "description": "Esse foi um dos meus primeiros freelancers criados, o site é uma pagina simples onde tem a descrição da empresa, descrição de seus produtos e pagina de contato que possui um formulário direcionando os dados direto para o email do vendedor e widgets para whatasApp, nesse site tive desafios como criação do logo e aprender a utilizar a biblioteca PHPMailer para envio de emails",
+            "links": ["https://www.mercantilredutores.com.br/"],
+            "tools": ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "PHPMailer"]
+
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "name": "JavaScript",
+            "level": 3,
+            "yearsExperience": 7,
+            "url": "assets/js.png"
+        },
+        {
+            "id": 2,
+            "name": "HTML",
+            "level": 4,
+            "yearsExperience": 8,
+            "url": "assets/html.png"
+
+        },
+        {
+            "id": 3,
+            "name": "CSS",
+            "level": 3,
+            "yearsExperience": 8,
+            "url": "assets/css.png"
+
+        },
+        {
+            "id": 4,
+            "name": "React",
+            "level": 2,
+            "yearsExperience": 3,
+            "url": "assets/react.png"
+
+        },
+        {
+            "id": 5,
+            "name": "TypeScript",
+            "level": 1,
+            "yearsExperience": 1,
+            "url": "assets/typescript.png"
+
+        },
+        {
+            "id": 6,
+            "name": "Material-UI",
+            "level": 2,
+            "yearsExperience": 3,
+            "url": "assets/mui.png"
+
+        },
+        {
+            "id": 7,
+            "name": "GIT",
+            "level": 2,
+            "yearsExperience": 3,
+            "url": "assets/git.png"
+
+        },
+        {
+            "id": 8,
+            "name": "GitHub",
+            "level": 2,
+            "yearsExperience": 4,
+            "url": "assets/github.png"
+
+        }
+    ]
+}

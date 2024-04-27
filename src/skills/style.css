@@ -1,0 +1,45 @@
+.container_painel {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MuiPaper-root {
+  width: auto;
+  margin: 10px;
+  max-width: 144px;
+  min-width: 144px;
+  
+}
+.MuiButtonBase-root {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: default;
+}
+.containerTechnologies {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.experienceCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.titleSkills {
+  margin: 0;
+  color: #888;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.text{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #9a9a9a;
+    text-align: center;
+}
