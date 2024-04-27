@@ -19,7 +19,7 @@ function Menu() {
         <Stack direction="row" spacing={2}>
           <Avatar
             alt="Remy Sharp"
-            src="../../src/assets/thiagoPixar.png"
+            src="../../assets/thiagoPixar.png"
             sx={{ width: 56, height: 56 }}
           />
         </Stack>
